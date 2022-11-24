@@ -7,13 +7,13 @@ function Header() {
   return (
     <>
       <Navbar>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
             <NavLink to="">
               <img src="/images/logo.svg" alt="" />
             </NavLink>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -21,23 +21,23 @@ function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              class="collapse navbar-collapse justify-content-end"
+              className="collapse navbar-collapse justify-content-end"
               id="navbarSupportedContent"
             >
-              <ul class="navbar-nav gap-4 mb-2 mb-lg-0">
-                <li class="nav-item">
+              <ul className="navbar-nav gap-4 mb-2 mb-lg-0">
+                <li className="nav-item">
                   <NavLink to="/">Home</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink to="/about">About</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink to="/products">Products</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink to="/contact">Contact</NavLink>
                 </li>
                 <li className="nav-item">

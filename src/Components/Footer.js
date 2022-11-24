@@ -4,15 +4,15 @@ import styled from "styled-components";
 function Footer() {
   return (
     <Wrapper>
-      <footer class="footer">
-        <div class="container section section-footer">
-          <div class="footer-about">
-            <h3 class="footer-headings">About</h3>
+      <footer className="footer">
+        <div className="container section section-footer">
+          <div className="footer-about">
+            <h3 className="footer-headings">About</h3>
             <p>Come join us!</p>
           </div>
 
-          <div class="footer-links">
-            <h3 class="footer-headings">Links</h3>
+          <div className="footer-links">
+            <h3 className="footer-headings">Links</h3>
             <ul>
               <li>Home</li>
               <li>About</li>
@@ -22,8 +22,8 @@ function Footer() {
             </ul>
           </div>
 
-          <div class="footer-services">
-            <h3 class="footer-headings">Services</h3>
+          <div className="footer-services">
+            <h3 className="footer-headings">Services</h3>
             <ul>
               <li>Web Design</li>
               <li>Web Development</li>
@@ -33,8 +33,8 @@ function Footer() {
             </ul>
           </div>
 
-          <div class="footer-question">
-            <h3 class="footer-headings">Have a question</h3>
+          <div className="footer-question">
+            <h3 className="footer-headings">Have a question</h3>
             <ul>
               <li>Delhi, India</li>
               <li>9999000012</li>
@@ -43,17 +43,17 @@ function Footer() {
           </div>
         </div>
 
-        <div class="container section-socials">
+        <div className="container section-socials">
           <a href="/">
-            <i class="fab fa-discord fa-2x icons"></i>
+            <i className="fab fa-discord fa-2x icons"></i>
           </a>
 
           <a href="/">
-            <i class="fa-brands fa-youtube fa-2x icons"></i>
+            <i className="fa-brands fa-youtube fa-2x icons"></i>
           </a>
 
           <a href="/">
-            <i class="fa-brands fa-facebook fa-2x icons"></i>
+            <i className="fa-brands fa-facebook fa-2x icons"></i>
           </a>
         </div>
       </footer>
