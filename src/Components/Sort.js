@@ -69,7 +69,7 @@ const Wrapper = styled.section`
       font-size: 1.6rem;
     }
     .active {
-      background-color: #000;
+      background-color: ${({ theme }) => theme.colors.black};
       color: #fff;
     }
   }

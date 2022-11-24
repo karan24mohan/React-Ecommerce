@@ -26,13 +26,10 @@ const FeatureProduct = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 4rem 10rem;
-
+  padding: 9rem 0;
+  background-color: ${({ theme }) => theme.colors.bg};
   .container {
     max-width: 120rem;
-  }
-  .grid {
-    gap: 1rem !important;
   }
   figure {
     width: auto;
@@ -70,47 +67,49 @@ const Wrapper = styled.section`
       top: 15%;
       right: 10%;
       text-transform: uppercase;
+      background-color: ${({ theme }) => theme.colors.bg};
+      color: ${({ theme }) => theme.colors.helper};
       padding: 0.8rem 2rem;
       font-size: 1.2rem;
       border-radius: 2rem;
     }
   }
   .card {
-    width: 100%;
-    height: 100%;
     background-color: #fff;
     border-radius: 1rem;
-  }
-  .card-data {
-    padding: 0 2rem;
-  }
-  .card-data-flex {
-    margin: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  h3 {
-    text-transform: capitalize;
-  }
-  .card-data-price {
-  }
-  .btn {
-    margin: 2rem auto;
-    background-color: rgb(0 0 0 / 0%);
-    border: 0.1rem solid rgb(98 84 243);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover {
-      background-color: rgb(98 84 243);
+    .card-data {
+      padding: 0 2rem;
     }
-    &:hover a {
-      color: #fff;
+    .card-data-flex {
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    a {
-      color: rgb(98 84 243);
-      font-size: 1.4rem;
+    h3 {
+      color: ${({ theme }) => theme.colors.text};
+      text-transform: capitalize;
+    }
+    .card-data--price {
+      color: ${({ theme }) => theme.colors.helper};
+    }
+    .btn {
+      margin: 2rem auto;
+      background-color: rgb(0 0 0 / 0%);
+      border: 0.1rem solid rgb(98 84 243);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-color: rgb(98 84 243);
+      }
+      &:hover a {
+        color: #fff;
+      }
+      a {
+        color: rgb(98 84 243);
+        font-size: 1.4rem;
+      }
     }
   }
 `;
